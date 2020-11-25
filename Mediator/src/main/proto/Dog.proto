@@ -1,4 +1,4 @@
-/*syntax = "proto3";
+syntax = "proto3";
 option java_multiple_files = true;
 package com.example.grpc.server.grpcserver.dog;
 
@@ -37,4 +37,4 @@ service DogService {
     rpc get(GetRequest) returns (GetResponse);
     rpc delete(DeleteRequest) returns (DeleteResponse);
     rpc create(CreateRequest) returns (CreateResponse);
-}*/
+}
